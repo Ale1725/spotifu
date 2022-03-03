@@ -1,0 +1,12 @@
+.ellipsis {
+  overflow: hidden;
+}
+/* overflow para prevenir si lo deseo utilizar en otra parte de la pagina y que te funcione*/
+
+.ellipsis > * {
+  /* border: 1px solid red; */
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

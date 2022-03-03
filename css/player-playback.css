@@ -1,0 +1,21 @@
+.playerPlayback {
+  display: flex;
+  /* border: 1px solid red; */
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.playerPlayback-slider {
+  flex: 1;
+  /* 
+  flex-grow: 1; ---> Se agrande un 100% y tome todo el espacio
+  flex-shrink: 1; ---> Se achique un 100%
+  flex-basis:0%;
+  */
+}
+
+.playerPlayback-progressTime {
+  font: var(--smallfont);
+  line-height: 1;
+  /*  border: 1px solid red; */
+}

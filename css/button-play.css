@@ -1,0 +1,14 @@
+.buttonPlay {
+  font: var(--button);
+  border: none;
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  border-radius: 4.375rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.buttonPlay.is-primary {
+  background: var(--primary);
+  color: var(--white);
+}

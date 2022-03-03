@@ -1,0 +1,134 @@
+.personalizedplaylist {
+  /* border: 1px solid red; */
+}
+
+.personalizedplaylist-header {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  inline-size: fit-content;
+  gap: 1.5rem;
+  align-items: center;
+  padding-block-end: 1rem;
+}
+
+.personalizedplaylist-header h3 {
+  font: var(--headline1);
+  color: var(--white);
+  margin-block-end: 0;
+  margin-block-start: 5.4375rem;
+}
+
+.personalizedplaylist-header-details {
+  font: var(--basefont-normal);
+  color: var(--white);
+  text-align: center;
+}
+
+.personalizedplaylist-header-details p {
+  margin: 0;
+}
+
+.personalizedPlaylist-songList {
+}
+
+.personalizedPlaylist-song {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.personalizedPlaylist-song p {
+  color: var(--white);
+}
+
+.personalizedPlaylist-title p {
+  margin: 0;
+  font: var(--baseFont);
+}
+
+.personalizedPlaylist-table .icon-heart {
+  font-size: 1.125rem;
+  vertical-align: middle;
+  color: var(--white);
+}
+
+.personalizedPlaylist-title .is-secondary {
+  block-size: 1.5rem;
+  inline-size: 1.5rem;
+}
+
+.personalizedPlaylist-title .is-secondary .icon-play {
+  font-size: 8px;
+}
+
+.personalizedPlaylist-table {
+  /* border: 1px solid red; */
+  inline-size: 100%;
+  --max-inline-size-icons: 2.75rem;
+  --max-inline-size-calendar: 6rem;
+  --max-inline-size-clock: 2.937rem;
+}
+
+.personalizedPlaylist-table tr {
+  /* border: 1px solid navy; */
+  display: flex;
+  /* line-height: 2.75rem; */
+}
+.personalizedPlaylist-table tr td,
+.personalizedPlaylist-table tr th {
+  /* border: 1px solid green; */
+  padding: 14px 10px;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.personalizedPlaylist-table tbody tr td {
+  padding: 11px 10px;
+}
+.personalizedPlaylist-table tr th {
+  text-align: start;
+  text-transform: uppercase;
+  font: var(--subtitle2);
+}
+
+.icon-calendar,
+.icon-clock {
+  font-size: 1.125rem;
+}
+
+.is-icon {
+  max-inline-size: var(--max-inline-size-icons);
+}
+
+.is-calendar {
+  max-inline-size: var(--max-inline-size-calendar);
+}
+
+.is-clock {
+  max-inline-size: var(--max-inline-size-clock);
+}
+
+.personalizedPlaylist-filter {
+  margin-block: 1rem;
+}
+
+.personalizedPlaylist-filter .search input {
+  background-color: transparent;
+  color: var(--white);
+}
+.personalizedPlaylist-filter .search i {
+  color: var(--white);
+}
+
+tbody {
+  font: var(--basefont-normal);
+}
+
+.is-color {
+  color: var(--white);
+}
+
+.is-artist {
+  text-transform: uppercase;
+}

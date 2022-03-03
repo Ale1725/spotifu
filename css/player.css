@@ -1,0 +1,36 @@
+@import './slider.css';
+@import './now-playing.css';
+@import './player-controls.css';
+@import './player-playback.css';
+@import './player-volume.css';
+
+.player {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+
+  box-shadow: inset 0px 1px 0 var(--gray30);
+  /* Box-shadow no aumenta el tamaño de la caja */
+}
+
+.player > * {
+  flex: 1;
+  /* border: 1px solid red; */
+}
+
+.player-control {
+  border: none;
+  padding: 0;
+  background: none;
+  color: var(--gray10);
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.player-playerVolume {
+  display: flex;
+  justify-content: end;
+}
+
+/* Se toma está decisión ya que va ser reutilizado en otra parte*/

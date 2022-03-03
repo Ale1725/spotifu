@@ -1,0 +1,61 @@
+@import './fonts.css';
+@import './icons.css';
+@import './body.css';
+@import './link.css';
+@import './button-icon.css';
+@import './button-play.css';
+@import './sidebar.css';
+@import './ellipsis.css';
+@import './player.css';
+@import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
+@import './personalizedplaylist.css';
+@import './recentlyheard.css';
+@import './image-cover.css';
+
+:root {
+  /*------------ Color --------------- */
+  font-size: 16px;
+  --primary: #00b050;
+  --white: #ffffff;
+  --gray10: #b3b3b3;
+  --gray20: #737373;
+  --gray30: #282828;
+  --gray40: #181818;
+  --gray50: #121212;
+  --gray60: #000000;
+
+  /*------------ fonts --------------- */
+  --basefontFamily: Avenir, Helvetica, sans-serif;
+
+  --headline1: bold 2rem / normal var(--basefontFamily);
+  --headline2: bold 1.5rem/1.75rem var(--basefontFamily);
+
+  --subtitle2: normal 0.75rem / normal var(--basefontFamily);
+
+  --basefont-normal: normal 0.875rem/1.375rem var(--basefontFamily);
+  --basefont-bold: 900 0.875rem/1.375rem var(--basefontFamily);
+
+  --button: bold 0.875rem/1rem var(--basefontFamily);
+  --smallfont: normal 0.75em / normal var(--basefontFamily);
+
+  /*------------ tips --------------- */
+  /* Base con rem -> font-size: 16px; */
+  /* smallfont -> Es el 75% de mi base superior -> Esta decisión es tomanda mediante la COMUNICACIÓN con el equipo */
+  /* 
+  body y link son componentes pero viene de decisiones generales que se va distribuir en todo el proyecto.
+  */
+}
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1367px) {
+  :root {
+    font-size: 18px;
+  }
+}

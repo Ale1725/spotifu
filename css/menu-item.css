@@ -1,0 +1,46 @@
+.menuItem {
+  /* border: 1px solid green; */
+}
+
+.menuItem a {
+  /* border: 1px solid red; */
+  display: flex;
+
+  font: var(--button);
+
+  padding-inline-start: 1.5em;
+  padding-inline-end: 1.5rem;
+
+  block-size: 2.5rem;
+
+  align-items: center;
+  gap: 0.5rem;
+
+  /*  box-shadow: inset 4px 0 0 var(--primary); */
+  /* border-left: 4px solid var(--primary);
+  box-sizing: border-box; */
+  /* line-height: 2.5rem; */
+}
+
+.menuItem a:hover {
+  text-decoration: none;
+}
+
+.menuItem [class^='icon-'] {
+  /* border: 1px solid red; */
+  font-size: 1.5rem;
+}
+
+.menuItem.is-active a {
+  box-shadow: inset 4px 0 0 var(--primary);
+}
+
+/* tips: box-shadow -> No aumenta el tamaño de la caja  */
+
+.menuItem.is-active .icon-home::before {
+  content: '\e90a';
+}
+
+.menuItem.is-active .icon-search::before {
+  content: '\e914';
+}

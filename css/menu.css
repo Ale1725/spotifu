@@ -1,0 +1,19 @@
+@import './menu-item.css';
+
+.menu {
+}
+
+.menu-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/*------------  --------------- */
+
+/*
+1# Componiendo un componente.
+2# "menu-item" depende de "menu" esto quiere decir que si me gustaria realizar otro estilo cambiaria el "menu-item" .
+
+
+*/
