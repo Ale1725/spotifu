@@ -1,0 +1,40 @@
+.recentlyheard {
+}
+
+.recentlyheard-hero {
+  display: flex;
+  gap: 1.5rem;
+  /* border: 1px solid red; */
+}
+
+.recentlyheard-imagen {
+}
+
+.recentlyheard-hero-details {
+  color: white;
+  /* display: flex;
+  gap: 16px;
+  flex-direction: column; */
+}
+
+.recentlyheard-title {
+  font: var(--headline1);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.recentlyheard-namesong {
+  font: var(--basefont-normal);
+  margin-block-start: 1rem;
+  margin-block-end: 0;
+}
+
+.recentlyheard-follower {
+  font: var(--basefont-normal);
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+}
+
+.recentlyheard-hero-details {
+  /* border: 1px solid blue; */
+}
