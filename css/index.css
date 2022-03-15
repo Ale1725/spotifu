@@ -12,6 +12,7 @@
 @import './scrollbar.css';
 @import './personalizedplaylist.css';
 @import './recentlyheard.css';
+@import './likeplaylist.css';
 @import './image-cover.css';
 
 :root {
